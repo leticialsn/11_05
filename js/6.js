@@ -1,0 +1,13 @@
+var hoje, xDia, diaSemana;
+hoje=new Date();
+xDia=hoje.getDay();
+diaSemana=new Array(7);
+diaSemana[0]="domingo";
+diaSemana[1]="segunda";
+diaSemana[2]="terça-feira";
+diaSemana[3]="quarta-feira";
+diaSemana[4]="quinta-feira";
+diaSemana[5]="sexta-feira";
+diaSemana[6]="sabado";
+document.write("O número da semana é:"+''+(xDia+1));
+document.write("<p><b>"+"hoje é:"+diaSemana[xDia]);

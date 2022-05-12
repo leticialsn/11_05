@@ -1,0 +1,22 @@
+var hoje, xDia, diaSemana, preçodia;
+hoje=new Date();
+xDia=hoje.getDay();
+diaSemana=new Array(7);
+diaSemana[0]="frango assado";
+diaSemana[1]="virado a paulista";
+diaSemana[2]="file de frango";
+diaSemana[3]="feijoada";
+diaSemana[4]="pernil assado";
+diaSemana[5]="file de peixe";
+diaSemana[6]="feijoada";
+
+preçodia=new Array(7);
+preçodia[0]="R$32,99";
+preçodia[1]="R$22,99";
+preçodia[2]="R$19,99";
+preçodia[3]="R$25,99";
+preçodia[4]="R$19,99";
+preçodia[5]="R$19,99";
+preçodia[6]="R$25,99";
+document.write("O prato do dia é:"+diaSemana[xDia]);
+document.write("<p><b>"+"O preço do prato do dia é:"+preçodia[xDia]);
